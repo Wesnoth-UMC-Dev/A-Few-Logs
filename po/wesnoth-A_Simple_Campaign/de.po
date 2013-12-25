@@ -1,0 +1,196 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wesnoth 1.9.6+svn\n"
+"Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
+"POT-Creation-Date: 2011-05-30, 18:57+0000\n"
+"PO-Revision-Date: 2011-05-30 22:04+0100\n"
+"Last-Translator: Anonymissimus\n"
+"Language-Team: Anonymissimus <LL\\@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Language: GERMAN\n"
+"X-Poedit-Country: Germany\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+# _main.cfg, line 0: <toplevel>
+# _main.cfg, line 47: [campaign] has id=A_Simple_Campaign # Needed to connect savefiles with their campaign., define=A_SIMPLE_CAMPAIGN # This preprocessor symbol is defined once the player chooses to play the campaign. It needs to match the symbol queried for below exactly., difficulties=EASY,NORMAL,HARD # Which various difficulties the campaign shall have. These are preprocessor symbols which do at first nothing. The player selects which one of these gets defined when starting the campaign. You can use them in your code to enable/disable certain things with (e.g.) #idef HARD #else #endif clauses., icon=data/add-ons/A_Simple_Campaign/images/bookshelf-full.png # image in the campaign list, image=portraits/elves/sorceress.png # campaign image right of the campaign list when selected, first_scenario=01_Template # Scenario that gets chosen first from the scenario list. It looks for a scenario with this id, not with this filename.
+# _main.cfg, line 49: name=
+msgid "A Simple Campaign"
+msgstr "Eine Einfache Kampagne"
+
+# _main.cfg, line 0: <toplevel>
+# _main.cfg, line 47: [campaign] has id=A_Simple_Campaign # Needed to connect savefiles with their campaign., define=A_SIMPLE_CAMPAIGN # This preprocessor symbol is defined once the player chooses to play the campaign. It needs to match the symbol queried for below exactly., difficulties=EASY,NORMAL,HARD # Which various difficulties the campaign shall have. These are preprocessor symbols which do at first nothing. The player selects which one of these gets defined when starting the campaign. You can use them in your code to enable/disable certain things with (e.g.) #idef HARD #else #endif clauses., icon=data/add-ons/A_Simple_Campaign/images/bookshelf-full.png # image in the campaign list, image=portraits/elves/sorceress.png # campaign image right of the campaign list when selected, first_scenario=01_Template # Scenario that gets chosen first from the scenario list. It looks for a scenario with this id, not with this filename.
+# _main.cfg, line 50: abbrev=
+msgid "ASC"
+msgstr "EEK"
+
+# _main.cfg, line 0: <toplevel>
+# _main.cfg, line 47: [campaign] has id=A_Simple_Campaign # Needed to connect savefiles with their campaign., define=A_SIMPLE_CAMPAIGN # This preprocessor symbol is defined once the player chooses to play the campaign. It needs to match the symbol queried for below exactly., difficulties=EASY,NORMAL,HARD # Which various difficulties the campaign shall have. These are preprocessor symbols which do at first nothing. The player selects which one of these gets defined when starting the campaign. You can use them in your code to enable/disable certain things with (e.g.) #idef HARD #else #endif clauses., icon=data/add-ons/A_Simple_Campaign/images/bookshelf-full.png # image in the campaign list, image=portraits/elves/sorceress.png # campaign image right of the campaign list when selected, first_scenario=01_Template # Scenario that gets chosen first from the scenario list. It looks for a scenario with this id, not with this filename.
+# _main.cfg, line 54: difficulty_descriptions=
+msgid "&units/undead-necromancers/adept-magic-3.png=Easy;*&units/undead-necromancers/dark-sorcerer-attack-staff-2.png=Medium;&units/undead-necromancers/ancient-lich-magic-3.png=Difficult"
+msgstr "&units/undead-necromancers/adept-magic-3.png=Einfach;*&units/undead-necromancers/dark-sorcerer-attack-staff-2.png=Mittel;&units/undead-necromancers/ancient-lich-magic-3.png=Schwierig"
+
+# _main.cfg, line 0: <toplevel>
+# _main.cfg, line 47: [campaign] has id=A_Simple_Campaign # Needed to connect savefiles with their campaign., define=A_SIMPLE_CAMPAIGN # This preprocessor symbol is defined once the player chooses to play the campaign. It needs to match the symbol queried for below exactly., difficulties=EASY,NORMAL,HARD # Which various difficulties the campaign shall have. These are preprocessor symbols which do at first nothing. The player selects which one of these gets defined when starting the campaign. You can use them in your code to enable/disable certain things with (e.g.) #idef HARD #else #endif clauses., icon=data/add-ons/A_Simple_Campaign/images/bookshelf-full.png # image in the campaign list, image=portraits/elves/sorceress.png # campaign image right of the campaign list when selected, first_scenario=01_Template # Scenario that gets chosen first from the scenario list. It looks for a scenario with this id, not with this filename.
+# _main.cfg, line 59: description=
+msgid "This is a stub of a campaign, intended to make life easier in creating a campaign. Contains about the bare minimum that's needed for a campaign and some helpful comments."
+msgstr "Dies ist ein Kampagnenrumpf, welcher das Erstellen einer Kampagne einfacher machen soll. Enthält ungefähr das absolute Minimum welches für eine Kampagne gebraucht wird und einige hilfreiche Kommentare."
+
+# scenarios/01_Template.cfg, line 0: <toplevel>
+# scenarios/01_Template.cfg, line 9: [story] has
+# scenarios/01_Template.cfg, line 10: [part] has
+# scenarios/01_Template.cfg, line 11: story=
+msgid "this is where the story goes"
+msgstr "hier kommt die Geschichte hin"
+
+# scenarios/01_Template.cfg, line 0: <toplevel>
+# scenarios/01_Template.cfg, line 24: [scenario] has id=01_Template # looked for by the engine (corresponds to first_scenario= in _main.cfg), map_data="{~add-ons/A_Simple_Campaign/maps/01_Template.map}", snapshot=no, turns=40, victory_when_enemies_defeated=yes
+# scenarios/01_Template.cfg, line 26: name=
+msgid "Template"
+msgstr "Schablone"
+
+# scenarios/01_Template.cfg, line 0: <toplevel>
+# scenarios/01_Template.cfg, line 24: [scenario] has id=01_Template # looked for by the engine (corresponds to first_scenario= in _main.cfg), map_data="{~add-ons/A_Simple_Campaign/maps/01_Template.map}", snapshot=no, turns=40, victory_when_enemies_defeated=yes
+# scenarios/01_Template.cfg, line 56: [side] has side=1, controller=human, team_name=1 # used to determine which side is enemy or allied, type=Dwarvish Fighter, id=His Awesomeness, gender=male, canrecruit=yes, unrenamable=true, recruit=Dwarvish Fighter,Dwarvish Thunderer,Dwarvish Ulfserker,Dwarvish Guardsman
+# scenarios/01_Template.cfg, line 62: user_team_name=
+msgid "foo"
+msgstr "foo"
+
+# scenarios/01_Template.cfg, line 0: <toplevel>
+# scenarios/01_Template.cfg, line 24: [scenario] has id=01_Template # looked for by the engine (corresponds to first_scenario= in _main.cfg), map_data="{~add-ons/A_Simple_Campaign/maps/01_Template.map}", snapshot=no, turns=40, victory_when_enemies_defeated=yes
+# scenarios/01_Template.cfg, line 56: [side] has side=1, controller=human, team_name=1 # used to determine which side is enemy or allied, type=Dwarvish Fighter, id=His Awesomeness, gender=male, canrecruit=yes, unrenamable=true, recruit=Dwarvish Fighter,Dwarvish Thunderer,Dwarvish Ulfserker,Dwarvish Guardsman
+# scenarios/01_Template.cfg, line 68: name=
+msgid "His Awesomeness"
+msgstr "Seine Eindrucksvollkeit"
+
+# scenarios/01_Template.cfg, line 0: <toplevel>
+# scenarios/01_Template.cfg, line 24: [scenario] has id=01_Template # looked for by the engine (corresponds to first_scenario= in _main.cfg), map_data="{~add-ons/A_Simple_Campaign/maps/01_Template.map}", snapshot=no, turns=40, victory_when_enemies_defeated=yes
+# scenarios/01_Template.cfg, line 82: [side] has side=2, controller=ai, team_name=2, type=Elvish Fighter, id=Lord Awesomeness, gender=male, canrecruit=yes, unrenamable=true, recruit=Elvish Fighter,Elvish Archer,Elvish Scout,Elvish Shaman
+# scenarios/01_Template.cfg, line 87: user_team_name=
+msgid "bar"
+msgstr "bar"
+
+# scenarios/01_Template.cfg, line 0: <toplevel>
+# scenarios/01_Template.cfg, line 24: [scenario] has id=01_Template # looked for by the engine (corresponds to first_scenario= in _main.cfg), map_data="{~add-ons/A_Simple_Campaign/maps/01_Template.map}", snapshot=no, turns=40, victory_when_enemies_defeated=yes
+# scenarios/01_Template.cfg, line 82: [side] has side=2, controller=ai, team_name=2, type=Elvish Fighter, id=Lord Awesomeness, gender=male, canrecruit=yes, unrenamable=true, recruit=Elvish Fighter,Elvish Archer,Elvish Scout,Elvish Shaman
+# scenarios/01_Template.cfg, line 92: name=
+msgid "Lord Awesomeness"
+msgstr "Fürst Eindrucksvoll"
+
+# scenarios/01_Template.cfg, line 0: <toplevel>
+# scenarios/01_Template.cfg, line 24: [scenario] has id=01_Template # looked for by the engine (corresponds to first_scenario= in _main.cfg), map_data="{~add-ons/A_Simple_Campaign/maps/01_Template.map}", snapshot=no, turns=40, victory_when_enemies_defeated=yes
+# scenarios/01_Template.cfg, line 110: [event] has name=start
+# scenarios/01_Template.cfg, line 112: [message] has speaker=narrator, image=wesnoth-icon.png
+# scenarios/01_Template.cfg, line 115: message=
+msgid "Welcome, future UMC developer. This is a stub of a campaign, intended to make life easier in creating a campaign, since the by far most difficult part is the very start. This campaign contains about the bare minimum that's needed for a campaign and some helpful comments. Note that by creating a campaign which targets wesnoth's development version you may run into engine bugs which you mistakenly think of being caused by your wml code."
+msgstr "Wilkommen, zukünftiger UMC Entwickler. Dies ist ein Kampagnenrumpf mit Absicht das Erstellen einer Kampagne zu erleichtern, da der bei weitem am schwierigste Teil ganz am Anfang liegt. Diese Kampagne enhält in etwa das absolute Minimum was für eine Kampagne gebraucht wird und einige hilfreiche Kommentare. Beachte dass du durch das Erstellen einer Kampagne für Wesnoths Entwicklerversion auf Fehler des Hauptprogramms stoßen könntest, welche du irrtümlicherweise deinem wml code zuschreibst."
+
+# scenarios/01_Template.cfg, line 0: <toplevel>
+# scenarios/01_Template.cfg, line 24: [scenario] has id=01_Template # looked for by the engine (corresponds to first_scenario= in _main.cfg), map_data="{~add-ons/A_Simple_Campaign/maps/01_Template.map}", snapshot=no, turns=40, victory_when_enemies_defeated=yes
+# scenarios/01_Template.cfg, line 110: [event] has name=start
+# scenarios/01_Template.cfg, line 117: [message] has speaker=narrator, image=wesnoth-icon.png
+# scenarios/01_Template.cfg, line 121: message=
+msgid "There is a site in the wesnoth wiki related to this add-on, which also tells you where to look for this add-ons's files so you can actually read this message in the code instead of reading it on the screen: http://wiki.wesnoth.org/BuildingCampaignsTutorial/FirstCampaign"
+msgstr "Es gibt eine Seite im Wesnoth Wiki welche sich auf dieses Addon bezieht, diese gibt auch Information dazu wo nach den Dateien dieses Addons zu suchen ist sodass du diesen Satz tatsächlich auch im Code lesen kannst anstatt of dem Bildschirn: http://wiki.wesnoth.org/BuildingCampaignsTutorial/FirstCampaign"
+
+# scenarios/01_Template.cfg, line 0: <toplevel>
+# scenarios/01_Template.cfg, line 24: [scenario] has id=01_Template # looked for by the engine (corresponds to first_scenario= in _main.cfg), map_data="{~add-ons/A_Simple_Campaign/maps/01_Template.map}", snapshot=no, turns=40, victory_when_enemies_defeated=yes
+# scenarios/01_Template.cfg, line 110: [event] has name=start
+# scenarios/01_Template.cfg, line 123: [chat] has
+# scenarios/01_Template.cfg, line 124: message=
+msgid "site related to this add-on: http://wiki.wesnoth.org/BuildingCampaignsTutorial/FirstCampaign"
+msgstr "Seite zu diesem Addon: http://wiki.wesnoth.org/BuildingCampaignsTutorial/FirstCampaign"
+
+# scenarios/01_Template.cfg, line 0: <toplevel>
+# scenarios/01_Template.cfg, line 24: [scenario] has id=01_Template # looked for by the engine (corresponds to first_scenario= in _main.cfg), map_data="{~add-ons/A_Simple_Campaign/maps/01_Template.map}", snapshot=no, turns=40, victory_when_enemies_defeated=yes
+# scenarios/01_Template.cfg, line 110: [event] has name=start
+# scenarios/01_Template.cfg, line 126: [message] has speaker=narrator, image=wesnoth-icon.png
+# scenarios/01_Template.cfg, line 130: message=
+msgid "The files of this add-on, describing what happens in it, are in your userdata directory, explanation where this directory is here: http://wiki.wesnoth.org/EditingWesnoth"
+msgstr "Die Dateien dieses Addons, welche beschreiben was in ihm passiert, befinden sich in deinem userdata Ordner: http://wiki.wesnoth.org/EditingWesnoth"
+
+# scenarios/01_Template.cfg, line 0: <toplevel>
+# scenarios/01_Template.cfg, line 24: [scenario] has id=01_Template # looked for by the engine (corresponds to first_scenario= in _main.cfg), map_data="{~add-ons/A_Simple_Campaign/maps/01_Template.map}", snapshot=no, turns=40, victory_when_enemies_defeated=yes
+# scenarios/01_Template.cfg, line 110: [event] has name=start
+# scenarios/01_Template.cfg, line 132: [chat] has
+# scenarios/01_Template.cfg, line 133: message=
+msgid "Where are the files of this add-on ? read here: http://wiki.wesnoth.org/EditingWesnoth"
+msgstr "Wo sind die Dateien dieses Addons ? lies hier: http://wiki.wesnoth.org/EditingWesnoth"
+
+# scenarios/01_Template.cfg, line 0: <toplevel>
+# scenarios/01_Template.cfg, line 24: [scenario] has id=01_Template # looked for by the engine (corresponds to first_scenario= in _main.cfg), map_data="{~add-ons/A_Simple_Campaign/maps/01_Template.map}", snapshot=no, turns=40, victory_when_enemies_defeated=yes
+# scenarios/01_Template.cfg, line 110: [event] has name=start
+# scenarios/01_Template.cfg, line 137: [objectives] has side=1
+# scenarios/01_Template.cfg, line 139: summary=
+msgid "final objectives:"
+msgstr "endgültige Ziele:"
+
+# scenarios/01_Template.cfg, line 0: <toplevel>
+# scenarios/01_Template.cfg, line 24: [scenario] has id=01_Template # looked for by the engine (corresponds to first_scenario= in _main.cfg), map_data="{~add-ons/A_Simple_Campaign/maps/01_Template.map}", snapshot=no, turns=40, victory_when_enemies_defeated=yes
+# scenarios/01_Template.cfg, line 110: [event] has name=start
+# scenarios/01_Template.cfg, line 137: [objectives] has side=1
+# scenarios/01_Template.cfg, line 140: [objective] has condition=win
+# scenarios/01_Template.cfg, line 141: description=
+msgid "Defeat the enemy leader"
+msgstr "Besiege den gegnerischen Anführer"
+
+# scenarios/01_Template.cfg, line 0: <toplevel>
+# scenarios/01_Template.cfg, line 24: [scenario] has id=01_Template # looked for by the engine (corresponds to first_scenario= in _main.cfg), map_data="{~add-ons/A_Simple_Campaign/maps/01_Template.map}", snapshot=no, turns=40, victory_when_enemies_defeated=yes
+# scenarios/01_Template.cfg, line 110: [event] has name=start
+# scenarios/01_Template.cfg, line 137: [objectives] has side=1
+# scenarios/01_Template.cfg, line 144: [objective] has condition=lose
+# scenarios/01_Template.cfg, line 145: description=
+msgid "Death of His Awesomenes"
+msgstr "Tod Seiner Eindrucksvollkeit"
+
+# scenarios/01_Template.cfg, line 0: <toplevel>
+# scenarios/01_Template.cfg, line 24: [scenario] has id=01_Template # looked for by the engine (corresponds to first_scenario= in _main.cfg), map_data="{~add-ons/A_Simple_Campaign/maps/01_Template.map}", snapshot=no, turns=40, victory_when_enemies_defeated=yes
+# scenarios/01_Template.cfg, line 156: [event] has name=turn 2
+# scenarios/01_Template.cfg, line 165: [message] has id=created_unit
+# scenarios/01_Template.cfg, line 167: message=
+msgid "Hey, I'm a custom unit of this campaign and I've just appeared."
+msgstr "Hey, ich bin eine addonspezifische Einheit und bin gerade aufgetaucht."
+
+# scenarios/01_Template.cfg, line 0: <toplevel>
+# scenarios/01_Template.cfg, line 24: [scenario] has id=01_Template # looked for by the engine (corresponds to first_scenario= in _main.cfg), map_data="{~add-ons/A_Simple_Campaign/maps/01_Template.map}", snapshot=no, turns=40, victory_when_enemies_defeated=yes
+# scenarios/01_Template.cfg, line 171: [event] has name=moveto
+# scenarios/01_Template.cfg, line 176: [message] has speaker=unit
+# scenarios/01_Template.cfg, line 178: message=
+msgid "I'm a unit on side 1 and have just moved to the hex with coordinates $x1,$y1."
+msgstr "Ich bin eine Einheit auf Seite 1 und bin gerade zu dem Hexagon mit Koordinaten $x1,$y1 gezogen."
+
+# scenarios/01_Template.cfg, line 0: <toplevel>
+# scenarios/01_Template.cfg, line 24: [scenario] has id=01_Template # looked for by the engine (corresponds to first_scenario= in _main.cfg), map_data="{~add-ons/A_Simple_Campaign/maps/01_Template.map}", snapshot=no, turns=40, victory_when_enemies_defeated=yes
+# scenarios/01_Template.cfg, line 171: [event] has name=moveto
+# scenarios/01_Template.cfg, line 181: [message] has speaker=narrator, image=wesnoth-icon.png
+# scenarios/01_Template.cfg, line 184: message=
+msgid "Let's play some custom sound..."
+msgstr "Lasst uns einen addonspezifischen Klang abspielen..."
+
+# terrain/terrain-definitions.cfg, line 0: <toplevel>
+# terrain/terrain-definitions.cfg, line 2: [terrain_type] has symbol_image="../scenery/gate-rusty-sw", id=asc-custom-terrain, string=^scG\, aliasof=Xt, editor_group=sc
+# terrain/terrain-definitions.cfg, line 7: name=
+msgid "ASC's custom terrain"
+msgstr "EEK's addonspezifisches Terrain"
+
+# units/Custom_Unit.cfg, line 0: <toplevel>
+# units/Custom_Unit.cfg, line 2: [unit_type] has id=Custom Unit, race=human, image="units/custom_unit.png", ellipse="misc/ellipse-nozoc", hitpoints=52, movement_type=smallfoot, movement=5, experience=70, level=2, alignment=lawful, cost=56, usage=fighter
+# units/Custom_Unit.cfg, line 4: name=
+msgid "some custom unit"
+msgstr "eine addonspezifische Einheit"
+
+# units/Custom_Unit.cfg, line 0: <toplevel>
+# units/Custom_Unit.cfg, line 2: [unit_type] has id=Custom Unit, race=human, image="units/custom_unit.png", ellipse="misc/ellipse-nozoc", hitpoints=52, movement_type=smallfoot, movement=5, experience=70, level=2, alignment=lawful, cost=56, usage=fighter
+# units/Custom_Unit.cfg, line 17: description=
+msgid "This is a custom unit in ASC demonstrating how to create such units."
+msgstr "Dies ist eine addonspezifische Einheit in EEK welche demonstriert wie solche Einheiten gemacht werden."
+
+# units/Custom_Unit.cfg, line 0: <toplevel>
+# units/Custom_Unit.cfg, line 2: [unit_type] has id=Custom Unit, race=human, image="units/custom_unit.png", ellipse="misc/ellipse-nozoc", hitpoints=52, movement_type=smallfoot, movement=5, experience=70, level=2, alignment=lawful, cost=56, usage=fighter
+# units/Custom_Unit.cfg, line 25: [attack] has name=sword, type=impact, range=melee, damage=12, number=3, icon="attacks/sword-human.png"
+# units/Custom_Unit.cfg, line 27: description=
+msgid "Sword"
+msgstr "Schwert"
+
